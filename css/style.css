@@ -1156,9 +1156,7 @@ a.download-link span i{
 /* ==========================================================================
     6. CUSTOM SECTION BACKGROUNDS
     ========================================================================= */
-.page-content.custom-bkg{
-    padding-top: 70px;
-}
+
 
 .page-content.column-img-bkg{
     padding: 0;
@@ -4060,3 +4058,7 @@ blockquote{
     -moz-border-radius: 4px;
 }
 
+ /* Arabic */ 
+ .arb {
+     direction: rtl;
+ }

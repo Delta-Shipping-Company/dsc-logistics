@@ -303,6 +303,7 @@ ol {
 ul li,
 ol li {
     padding-bottom: 5px;
+    right: 25px;
 }
 
 blockquote + p {

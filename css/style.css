@@ -1420,18 +1420,6 @@ blockquote{
     color: #a0cc0e;
 }
 
-.lan {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background-color: white;
-    color:#a0cc0e;
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
 .btn {
     text-transform: uppercase;
     font-weight: 700;

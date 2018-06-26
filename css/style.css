@@ -1165,6 +1165,9 @@ a.download-link span i{
     6. CUSTOM SECTION BACKGROUNDS
     ========================================================================= */
 
+.page-content {
+    padding-bottom: 50px;
+}
 
 .page-content.column-img-bkg{
     padding: 0;
@@ -3737,6 +3740,16 @@ blockquote{
     padding-left: 15px;
 }
 
+
+.arw ul > li {
+    
+    background-image: url('../img/arrowarb.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    list-style: none;
+    padding-right: 15px;
+}
+
 .widget li a{
     padding-top: 5px;
     display: block;
@@ -3972,6 +3985,12 @@ blockquote{
 .footer-dark .copyright-container a,
 .footer-dark .copyright-container span{
     color: #bcc0c4;
+}
+
+.footer-social-arb {
+    margin-top: 15px;
+    position: absolute;
+    top: 70%;
 }
 
 .footer-social-icons{

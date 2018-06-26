@@ -383,6 +383,13 @@ All this is done for any sub-level being entered.
         HEADER WRAPPER STYLING 
         --------------------------------------------------------------------- */
 
+    .lan {
+        display: block;
+        position: absolute;
+        right: 45%;
+        font-weight: 700;
+    }
+
     .con {
         left: 35%;
         position: relative;

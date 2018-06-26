@@ -906,10 +906,540 @@ All this is done for any sub-level being entered.
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px){
+@media only screen and (min-width: 480px) and (max-width: 593px) {
+
+    .con {
+        display: inline;
+        left: 42%;
+        top: 58%;
+    }
+
+    .con li {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .header-wrapper{
+        position: initial;
+        padding-bottom: 15px;
+    }
+
+    .header-style01 #quick-links li,
+    .header-style01 #quick-links li p,
+    .header-style01 #quick-links li span,
+    .header-style01 #quick-links li a{
+        color: #777;
+    }
+
+    .wpml-languages a.active{
+        padding: 5px;
+    }
+
+    #header-wrapper + *{
+        margin-top: 0 !important;
+    }
+
+    .page-content .row{
+        margin-bottom: 0px;
+    }
+    
+    *[class*="col-"] + [class*="img-bkg"]{
+        margin-bottom: 0 !important;
+    }
+
+    .header-style03 .info-container{
+        width: 100%;
+    }
+
+    .header-style03 .info-container #quick-links{
+        float: none;
+        margin: 0 auto 10px;
+        display: table;
+        width: auto;
+    }
+
+    .header-style03 .info-container #search{
+        width: 70%;
+        min-height: 40px;
+        padding-right: 0;
+        float: right;
+    }
+
+    .header-style03 #dl-menu{
+        max-width: 100%;
+    }
+
+    .header-style03 .navbar a.btn{
+        width: 100%;
+        top: 5px;
+    }
+
+    .header-style03 .navbar a.btn span{
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    .header-style03 .search-submit{
+        width: 100%;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        position: relative;
+    }
+
+    .header-style03 .info-container #quick-links li{
+        padding-right: 10px;
+    }
+
+    .page-content *[class*="col-"], 
+    aside *[class*="col-"], 
+    *[class*="col-"].footer-widget-container {
+        margin-bottom: 30px;
+    }
+
+    *[class*="col-"].footer-widget-container:last-child{
+        margin-bottom: 0;
+    }
+
+    *[class*="col-"] *[class*="col-"]{
+        margin-left: 0 !important;
+    }
+
+    .header-wrapper.header-transparent{
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .navbar-nav{
+        display: none;
+    }
+
+    .main-nav{
+        background: none;
+        margin-top: 0 !important;
+    }
+
+    .navbar-header{
+        padding-left: 0;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        width: 100%;
+    }
+
+    .logo img{
+        margin: 0 auto 15px;
+    }
+
+    #dl-menu{
+        display: block;
+    }
+
+    .dl-menuwrapper{
+        max-width: 230px;
+        float: left;
+    }
+
+    #search{
+        margin-right: 0;
+        min-height: 40px;
+        padding-top: 5px;
+    }
+
+
+    /* 
+        PAGE CONTENT STYLING
+        --------------------------------------------------------------------- */
+    .page-content.parallax{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .page-content.fixed.centered .container,
+    .page-content.fixed.bottom .container{
+        left: 0;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        top: 0;
+        position: relative;
+    }
+
+    .custom-bkg.bkg-dark-blue.transparent01,
+    .custom-bkg.bkg-dark-blue.transparent02,
+    .custom-bkg.bkg-dark-blue.transparent03{
+        background: rgba(37, 39, 46, 1);
+    }
+    
+    .page-content.fixed.centered .container .row{
+        max-width: none;
+    }
+    
+    .page-content.fixed.bottom .row{
+        max-width: none;
+    }
+
+    .img-fixed-bottom{
+        bottom: 0;
+    }
+
+    .master-wrapper{
+        margin-top: 0 !important;
+    }
+
+    .page-content.fixed.centered *[class*="col-"].custom-bkg,
+    .page-content.fixed.bottom *[class*="col-"].custom-bkg{
+        margin-bottom: 0 !important;
+    }
+
+    .custom-col-padding-both{
+        padding: 50px 0;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .page-title-negative-top{
+        padding-top: 70px;
+    }
+
+    .page-title-style02{
+        margin-top: 0 !important;
+    }
+
+    .page-title-style02 h1,
+    .page-title-style02 h1 h2,
+    .page-title-style02 h1 h3,
+    .page-title-style02 h1 h4,
+    .page-title-style02 h1 h5,
+    .page-title-style02 h1 h6{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .page-title-map.page-title-negative-top{
+        margin-top: 0px !important;
+        padding-top: 0;
+    }
+
+    .page-title-map.page-title-negative-top #map{
+        margin-top: 0;
+    }
+
+
+    /*  ELEMENTS STYLING - ACCORDION
+        --------------------------------------------------------------------- */
+    .accordion.careers .title a span{
+        width: 100%;
+    }
+
+
+    /*  ELEMENTS STYLING - CALL TO ACTION
+        --------------------------------------------------------------------- */
+    .call-to-action .text{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .call-to-action .text h1,
+    .call-to-action .text h2,
+    .call-to-action .text h3,
+    .call-to-action .text h4,
+    .call-to-action .text h5,
+    .call-to-action .text p{
+        text-align: center;
+    }
+
+    .call-to-action .btn{
+        float: none;
+        top: 0;
+        display: table;
+        margin: 0 auto;
+    }
+
+
+    /*  ELEMENTS STYLING - COMPANY TIMELINE
+        --------------------------------------------------------------------- */
+    .company-timeline .timeline-item-details{
+        padding-left: 70px;
+    }
+
+    .company-timeline .icon-date-container{
+        width: 50px;
+        height: 50px;
+    }
+
+    .company-timeline .icon-date-container i{
+        width: 50px;
+        height: 50px;
+        font-size: 21px;
+    }
+
+
+    /*  ELEMENTS STYLING - CLIENTS LI
+        --------------------------------------------------------------------- */
+    *[class*="col-"] .clients-li li{
+        height: auto;
+        max-height: 80px;
+        width: 50%;
+
+    }
+
+
+    /*  ELEMENTS STYLING - EVENTS TABLE
+        --------------------------------------------------------------------- */
+    .events-table .event-date{
+        padding-top: 0;
+    }
+
+    .events-table .event-date .day{
+        padding: 10px;
+        font-size: 21px;
+    }
+
+    .events-table .event-date .month{
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    /*  ELEMENTS STYLING - FORMS STYLING
+        --------------------------------------------------------------------- */
+    .driver-app-form fieldset{
+        width: 100%;
+        padding-right: 0;
+    }
+
+
+    /*  ELEMENTS STYLES - LATEST POSTS
+        --------------------------------------------------------------------- */
+    *[class*="col-"] .pi-latest-posts02 li{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    *[class*="col-"] .pi-latest-posts03 li{
+        width: 100%;
+    }
+
+
+    /*  ELMENTS STYLING - NEWS CAROUSEL
+        --------------------------------------------------------------------- */
+    .news-carousel-container .icon-title{
+        width: 100%;
+        margin-bottom: 0;
+        float: left;
+    }
+
+    .carousel-container{
+        width: 100%;
+        float: left;
+    }
+
+
+    /*  ELEMENTS STYLING - NIVO SLIDER
+        --------------------------------------------------------------------- */
+    .nivo-caption{
+        display: none !important;
+    }
+
+
+    /* 
+        ELEMENTS STYLES - SERVICES
+        --------------------------------------------------------------------- */
+    .services-negative-top{
+        margin-top: 0;
+    }
+
+    .service-icon-left-boxed .icon-container{
+        float: none;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    .service-icon-left-boxed .icon-container svg,
+    .service-icon-left-boxed .icon-container img{
+        width: 100px;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .service-icon-left-boxed .service-details{
+        padding-left: 0;
+    }
+
+    .service-icon-left-boxed .service-details h1,
+    .service-icon-left-boxed .service-details h2,
+    .service-icon-left-boxed .service-details h3,
+    .service-icon-left-boxed .service-details h4,
+    .service-icon-left-boxed .service-details h5,
+    .service-icon-left-boxed .service-details p{
+        text-align: center;
+    }
+
+    .services-gallery li{
+        margin-bottom: 0 !important;
+    }
+
+    .copyright-container p{
+        text-align: center;
+    }
+
+    .row .custom-heading02:only-child{
+        margin-bottom: 30px;
+    }
+
+    .service-icon-left .icon-container{
+        width: 70px;
+        height: 70px;
+    }
+
+    .service-icon-left .icon-container svg,
+    .service-icon-left .icon-container img{
+        width: 50px;
+        height: 50px;
+        top: 10px;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .service-icon-left .service-details{
+        padding-left: 90px;
+    }
+
+    .service-icon-left-boxed i{
+        display: table;
+        width: 100%;
+    }
+
+    .service-icon-left .icon-container i{
+        font-size: 40px;
+        width: 70px;
+        height: 70px;
+    }
+
+    *[class*="col-"] .service-list-big-icons li{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    /*  ELEMENTS STYLING STATEMENT
+        --------------------------------------------------------------------- */
+    .statement p{
+        padding: 0;
+    }
+
+
+    /*  ELEMENTS STYLING - TABS
+        --------------------------------------------------------------------- */
+    .tabs li{
+        width: 100%;
+    }
+
+
+    /*  ELEMENTS STYLING TEAM MEMBERS
+        --------------------------------------------------------------------- */
+    .team-member img{
+        margin: 0 auto 15px;
+        float: none;
+    }
+
+    .team-details p,
+    .team-details h1,
+    .team-details h2,
+    .team-details h3,
+    .team-details h4,
+    .team-details h5,
+    .team-details h6{
+        text-align: center;
+    }
+
+    .team-details:after{
+        left: 50%;
+        margin-left: -20px;
+    }
+
+    .team-list li img{
+        float: none;
+        margin: 0 auto 15px;
+    }
+
+    .team-list li .team-details-container{
+        padding-left: 0;
+    }
+
+
+    /*  ELEMENTS STYLING - VEHICLE FLEET
+        -------------------------------------------------------------------- */
+    .vehicle-gallery li{
+        margin-bottom: 0 !important;
+    }
+
+    .hover-mask-container .hover-zoom{
+        margin-bottom: -50px;
+    }
+
+
+    /*  BLOG
+        --------------------------------------------------------------------- */
+    .post-list .blog-post .post-date, .post-single .blog-post .post-date{
+        width: 70px;
+    }
+
+    .post-list .blog-post .post-date .day, .post-single .blog-post .post-date .day{
+        padding: 10px;
+        font-size: 21px;
+    }
+
+    .post-list .blog-post .post-date .month, .post-single .blog-post .post-date .month{
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    .post-list .blog-post .post-body, .post-single .blog-post .post-body{
+        padding-left: 90px;
+    }
+
+    .blog-posts.isotope.masonry li.blog-post.isotope-item{
+        width: 100%;
+    }
+
+    .blog-post.isotope-item .post-info .post-category a{
+        right: 15px;
+    }
+
+    .blog-post.isotope-item .post-media img{
+        width: 100%;
+    }
+
+    .post-comments .children{
+        margin-left: 2%;
+    }
+
+    .comment-form fieldset{
+        width: 100%;
+        padding-left: 0;
+    }
+
+
+    /*  FOOTER
+        --------------------------------------------------------------------- */
+    #footer-wrapper{
+        background-image: none;
+    }
+}
+
+@media only screen and (min-width: 594px) and (max-width: 767px){
     /*  
         HEADER WRAPPER STYLING 
         --------------------------------------------------------------------- */
+
+    .con {
+        position: absolute;
+        left: 45%;
+        top: 50%;
+    }
     
     .header-wrapper{
         position: initial;
@@ -1423,6 +1953,13 @@ All this is done for any sub-level being entered.
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
+    
+    .con {
+        position: absolute;
+        left: 50%;
+        top: 5%;
+    }
+    
     /*  
         HEADER WRAPPER STYLING 
         --------------------------------------------------------------------- */
@@ -1732,7 +2269,12 @@ All this is done for any sub-level being entered.
     }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1999px){
+@media only screen and (min-width: 992px) and (max-width: 1125px){
+
+    .con {
+        display: none;
+    }
+
     .nav>li>a{
         padding-right: 15px;
         padding-left: 15px;

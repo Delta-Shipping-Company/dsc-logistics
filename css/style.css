@@ -517,6 +517,8 @@ a.download-link span i{
 .con {
     float: left;
     list-style-type: none;
+    left: 30%;
+    position: absolute;
 }
 
 .con li {
